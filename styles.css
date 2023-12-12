@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  background-image: url('https://joaoaugustompdj.github.io/Nutriccalculator/cabeçalho.png'); /* Substitua pelo nome real da sua imagem */
+   /* Substitua pelo nome real da sua imagem */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
