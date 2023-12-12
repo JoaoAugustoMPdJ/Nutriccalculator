@@ -13,7 +13,8 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center top;
-  height: 100px; /* Ajuste conforme necessário para a altura da imagem */
+  height: 100px;
+  width: 100%; /* Ajuste conforme necessário para a altura da imagem */
 }
 
 .calculator {
