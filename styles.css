@@ -9,7 +9,7 @@ body {
 }
 
 .header {
-  background-image: url('Caloriescalculator.png'); /* Substitua pelo nome real da sua imagem */
+  background-image: url('cabeçalho.png'); /* Substitua pelo nome real da sua imagem */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
