@@ -16,7 +16,12 @@ body {
   height: 100px;
   width: 100%; /* Ajuste conforme necessário para a altura da imagem */
 }
-
+img{
+  
+  image-orientation: from-image;
+  width: auto;
+  height: auto;
+}
 .calculator {
   text-align: center;
   max-width: 400px;
@@ -25,12 +30,6 @@ body {
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-img{
-  
-  image-orientation: from-image;
-  width: auto;
-  height: auto;
-}
 }
 
 .calculator h1 {
