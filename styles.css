@@ -12,7 +12,7 @@ header {
 header img {
   max-width: 100%;
   width: 1000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-  height: 150px;
+  height: 250px;
 }
 
 .calculator {
