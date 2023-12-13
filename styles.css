@@ -11,7 +11,7 @@ header {
 
 header img {
   width: 1000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-  height: 400px;
+  height: 1000px;
 }
 
 .calculator {
