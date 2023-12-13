@@ -10,7 +10,7 @@ header {
 }
 
 header img {
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  width: 200px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
   height: auto;
 }
 
