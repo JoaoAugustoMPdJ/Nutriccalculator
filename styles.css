@@ -10,13 +10,13 @@ header {
 }
 
 header img {
-  width: 200px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  width: 5000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
   height: auto;
 }
 
 .calculator {
   text-align: center;
-  max-width: 600px; /* Ajuste o tamanho máximo do contêiner do formulário conforme necessário */
+  max-width: 6000px; /* Ajuste o tamanho máximo do contêiner do formulário conforme necessário */
   margin: 20px auto;
   padding: 20px;
   background-color: #fff;
