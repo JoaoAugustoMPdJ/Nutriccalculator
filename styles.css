@@ -10,8 +10,9 @@ header {
 }
 
 header img {
-  width: 2000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-  height: 90px;
+  max-width: 100%;
+  width: 1000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  height: 100px;
 }
 
 .calculator {
