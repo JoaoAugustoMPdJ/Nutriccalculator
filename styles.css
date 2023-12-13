@@ -8,14 +8,6 @@ body {
   background-color: #f4f4f4;
 }
 
-.header {
-   /* Substitua pelo nome real da sua imagem */
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center top;
-  height: 100px;
-  width: 100%; /* Ajuste conforme necessário para a altura da imagem */
-}
 img{
   vertical-align: top;
   object-position: top;
