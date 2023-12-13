@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora de Gasto Calórico</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header>
+    <img src="https://joaoaugustompdj.github.io/Nutriccalculator/cabeçalho.png" alt="Cabeçalho">
+  </header>
+  <br></br>
+  <div class="calculator">
+    
+    <form id="calorie-form">
+      <label for="gender">Sexo:</label>
+      <select id="gender" required>
+        <option value="male">Masculino</option>
+        <option value="female">Feminino</option>
+      </select>
+
+      <label for="age">Idade:</label>
+      <input type="number" id="age" placeholder="Idade" required>
+
+      <label for="height">Altura (cm):</label>
+      <input type="number" id="height" placeholder="Altura" required>
+
+      <label for="weight">Peso (kg):</label>
+      <input type="number" id="weight" placeholder="Peso" required>
+
+      <label for="goal">Objetivo:</label>
+      <select id="goal" required>
+        <option value="lose">Perder Peso</option>
+        <option value="maintain">Manter Peso</option>
+        <option value="gain">Ganhar Massa</option>
+      </select>
+
+      <label for="activity">Nível de Atividade:</label>
+      <select id="activity" required>
+        <option value="sedentary">Sedentário</option>
+        <option value="active">Ativo</option>
+        <option value="intense">Intenso</option>
+      </select>
+
+      <label for="cardio">Nível de Atividade Cardiovascular:</label>
+      <select id="cardio" required>
+        <option value="low">Baixo (0-2 vezes por semana)</option>
+        <option value="moderate">Moderado (3-5 vezes por semana)</option>
+        <option value="high">Alto (Mais de 6 vezes por semana)</option>
+      </select>
+
+      <label for="lifestyle">Estilo de Vida:</label>
+      <select id="lifestyle" required>
+        <option value="sedentary">Sedentário</option>
+        <option value="active">Ativo</option>
+        <option value="intense">Intenso</option>
+      </select>
+
+      <button type="button" onclick="calculateCalories()">Calcular</button>
+    </form>
+
+    <div id="result"></div>
+  </div>
+
+  <script src="calculator.js"></script>
+</body>
+</html>
