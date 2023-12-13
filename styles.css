@@ -12,12 +12,12 @@ header {
 header img {
   max-width: 100%;
   width: 1000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
-  height: 100px;
+  height: 150px;
 }
 
 .calculator {
   text-align: center;
-  width: 80%;
+  width: 60%;
   max-width: 1000px; /* Ajuste o tamanho máximo do contêiner do formulário conforme necessário */
   margin: 20px auto;
   padding: 40px;
