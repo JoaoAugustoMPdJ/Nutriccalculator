@@ -19,7 +19,7 @@ body {
 img{
   
   image-orientation: from-image;
-  width: auto;
+  width: 100px;
   height: auto;
 }
 .calculator {
