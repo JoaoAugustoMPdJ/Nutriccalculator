@@ -10,7 +10,7 @@ header {
 }
 
 header img {
-  width: 1000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
+  width: 5000px; /* Garante que a imagem não ultrapasse a largura do contêiner pai */
   height: 1000px;
 }
 
