@@ -1,15 +1,12 @@
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
   margin: 0;
   background-color: #f4f4f4;
 }
 
 header {
   text-align: center;
+  margin-bottom: 20px; /* Adicionei margem inferior para separar a imagem do formulário */
 }
 
 header img {
@@ -20,7 +17,7 @@ header img {
 .calculator {
   text-align: center;
   max-width: 400px;
-  margin: 20px;
+  margin: 20px auto;
   padding: 20px;
   background-color: #fff;
   border-radius: 8px;
@@ -29,7 +26,7 @@ header img {
 
 .calculator h1 {
   margin: 0;
-  font-size: 24px; /* Ajuste conforme necessário */
+  font-size: 24px;
 }
 
 form {
